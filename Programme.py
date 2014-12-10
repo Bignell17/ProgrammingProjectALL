@@ -6,10 +6,8 @@ data = json.loads(response.decode('utf8'))
 
 Listofsectors = ["financial", "industrial goods", "healthcare", "services", "basic materials", "technology", "consumer goods", "utilities"]
 
-user_input = raw_input("Choose a sector")
+user_input = raw_input("Choose a sector:\n")
 
-for word in Listofsectors:
-    if user_input == word:
-        found = true
-        print "found"
+
+
         
