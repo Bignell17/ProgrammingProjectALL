@@ -14,7 +14,7 @@ for sectorname in data:
     if sectorname["sector"] == selectsector:
         print "company found"
         for companyname in data:
-            if str(selectsector) == companyname["sector"]:
+            if selectsector == companyname["sector"]:
             
                 print companyname["company"]["name"]
 
