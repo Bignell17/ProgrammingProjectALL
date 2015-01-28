@@ -50,7 +50,7 @@ def income_statement():
             cost_of_sales,
             net_profit,
             profit_for_the_period])
-    print "Done"
+    print "Saving complete. Please open the correct CSV file"
     #prints the data in the excel doc 
 
 
@@ -88,7 +88,7 @@ def financial_position():
             item['company']['non_current_assets'],
             total_assets,
             total_equity_liabilities])
-    print "Done"
+    print "Saving complete. Please open the correct CSV file"
     #print out the data in the excel document
 
 question= raw_input ("choose a statement: ")
